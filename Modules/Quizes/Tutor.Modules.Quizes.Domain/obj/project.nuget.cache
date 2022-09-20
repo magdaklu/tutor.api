@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "vOOoGGukGpntUNqZUVNOasZXY0ght6UdDVovpREwDzmlGYrKBh6n5kBWDS9COnGVToOqS/ByFCbGF5zcoteVeQ==",
+  "dgSpecHash": "ZId7V+KyTNQOA4ubvJcG6WkjGGtORpIadZm9Rpgf1sIR5BnmYNWwvfCXFCSmzTVp/oT/7P8Di7liBpih0jr/9w==",
   "success": true,
   "projectFilePath": "C:\\dev\\mw\\tutor.api\\Modules\\Quizes\\Tutor.Modules.Quizes.Domain\\Tutor.Modules.Quizes.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\magda.warpas\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\magda.warpas\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
