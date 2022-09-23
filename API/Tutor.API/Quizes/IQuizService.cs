@@ -3,5 +3,6 @@
     public interface IQuizService
     {
         IEnumerable<FlashCard> GetFlashCards();
+        FlashCard Add(FlashCard flashCard);
     }
 }

@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Tutor.API.Quizes;
 
@@ -5,6 +6,7 @@ namespace Tutor.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize]
     public class QuizController : ControllerBase
     {
 
@@ -21,6 +23,12 @@ namespace Tutor.API.Controllers
         public IEnumerable<FlashCard> Get()
         {
             return quizService.GetFlashCards();
+        }
+
+        [HttpPost("flashcards")]
+        public FlashCard Add([FromBody] FlashCard flashCard)
+        {
+            return quizService.Add(flashCard);
         }
     }
 }
