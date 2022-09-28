@@ -10,7 +10,7 @@ builder.Services.AddCors(options =>
         {
             policy
             .WithOrigins("http://localhost:3000",
-                          "https://english-tutor.azurewebsites.net/")
+                          "https://english-tutor.azurewebsites.net")
             .AllowAnyHeader()
             .AllowAnyMethod()
             .AllowCredentials();
