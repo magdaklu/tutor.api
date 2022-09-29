@@ -6,7 +6,6 @@ namespace Tutor.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    [Authorize]
     public class QuizController : ControllerBase
     {
 
@@ -25,6 +24,7 @@ namespace Tutor.API.Controllers
             return quizService.GetFlashCards();
         }
 
+        [Authorize]
         [HttpPost("flashcards")]
         public FlashCard Add([FromBody] FlashCard flashCard)
         {
